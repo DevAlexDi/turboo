@@ -18,5 +18,29 @@
   .sec-lvl-1 .main-turbo .for-flex-tour .my-abs.abs-3 {
     top: 249px;
     right: -270px; } }
+@media (max-width: 1500px) {
+  .sec-lvl-1 .main-turbo .abs-turbo {
+    right: 166px;
+    top: 203px; }
+
+  .sec-lvl-2 .for-flex-sec-2 {
+    padding-top: 70px; } }
+@media (max-width: 991px) {
+  #form_section .form {
+    margin-left: 0;
+    margin-right: 50px; } }
+@media (max-width: 767px) {
+  #form_section .girl {
+    display: none; }
+
+  #form_section .form .form_padding {
+    margin: 0; }
+
+  #form_section .form {
+    width: 100%;
+    margin-right: 0;
+    padding-top: 30px; }
+    #form_section .form button {
+      width: 100%; } }
 
 /*# sourceMappingURL=media.css.map */
