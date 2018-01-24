@@ -368,3 +368,123 @@ section{
         }
     }
 }
+
+.sec-lvl-3{
+    h2{
+        color: #1e1f24;
+        text-align: center;
+        font-size: 72px;
+        font-family: RalewayBlack;
+        padding: 90px 0 90px 0;
+        text-transform: uppercase;
+    }
+    .mid-sec-3{
+        position: relative;
+        &:before{
+            content: "";
+            display: block;
+            position: absolute;
+            right: calc(100%);
+                top: -600px;
+            width: 404px;
+            height: 1093px;
+            background-repeat: no-repeat;
+            background-image: url(../img/hard-bg-2.png);
+            
+        }
+        .circle-2{
+            position: absolute;
+            width: 950px;
+            height: 950px;
+            border-radius: 50%;
+            background:#f4f2f2;
+            top: 0;
+            left: 50%;
+            display: flex;
+            transform: translate(-50%);
+            padding: 200px;
+            &:before{
+                content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                background: #ebebeb;
+            }
+        }
+        .flex-text{
+            position: relative;
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            &.padd-top{
+                padding-top: 30px;
+            }
+            .tt1{
+                max-width: 402px;
+                position: relative;
+                &:before{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background-repeat: no-repeat;
+                    
+                }
+                h6{
+                    font-family: RalewayBlack;
+                    font-size: 24px;
+                    margin-bottom: 15px;
+                    color: #1e1f24;
+                    text-transform: uppercase;
+                   
+                    
+                }
+                p{
+                    font-family: RalewayRegular;
+                    font-weight: bold;
+                }
+                &.ar-1{
+                    &:before{
+                        top: 0;
+                        left: 330px;
+                        background-image: url(../img/arr-5-left.png);
+                        width: 65px;
+                        height: 31px;
+                    }
+                }
+                &.ar-2{
+                    &:before{
+                        top: 37px;
+                        left: -105px;
+                        background-image: url(../img/arr-6-left.png);
+                        width: 56px;
+                        height: 39px;
+                    }
+                }
+                &.ar-3{
+                    &:before{
+                        top: 11px;
+                        left: 353px;
+                        background-image: url(../img/arr-7-left.png);
+                        width: 65px;
+                        height: 31px;
+                    }
+                }
+                &.ar-4{
+                    &:before{
+                        top: -17px;
+                        left: -100px;
+                        background-image: url(../img/arr-8-left.png);
+                        width: 54px;
+                        height: 42px;
+                    }
+                }
+                
+            }
+        }
+        img{
+            position: relative;
+            z-index: 10;
+        }
+    }
+}

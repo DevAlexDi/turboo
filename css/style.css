@@ -287,4 +287,93 @@ section {
         font-size: 48px;
         line-height: 20px; }
 
+.sec-lvl-3 h2 {
+  color: #1e1f24;
+  text-align: center;
+  font-size: 72px;
+  font-family: RalewayBlack;
+  padding: 90px 0 90px 0;
+  text-transform: uppercase; }
+.sec-lvl-3 .mid-sec-3 {
+  position: relative; }
+  .sec-lvl-3 .mid-sec-3:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: calc(100%);
+    top: -600px;
+    width: 404px;
+    height: 1093px;
+    background-repeat: no-repeat;
+    background-image: url(../img/hard-bg-2.png); }
+  .sec-lvl-3 .mid-sec-3 .circle-2 {
+    position: absolute;
+    width: 950px;
+    height: 950px;
+    border-radius: 50%;
+    background: #f4f2f2;
+    top: 0;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%);
+    padding: 200px; }
+    .sec-lvl-3 .mid-sec-3 .circle-2:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: #ebebeb; }
+  .sec-lvl-3 .mid-sec-3 .flex-text {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between; }
+    .sec-lvl-3 .mid-sec-3 .flex-text.padd-top {
+      padding-top: 30px; }
+    .sec-lvl-3 .mid-sec-3 .flex-text .tt1 {
+      max-width: 402px;
+      position: relative; }
+      .sec-lvl-3 .mid-sec-3 .flex-text .tt1:before {
+        content: "";
+        display: block;
+        position: absolute;
+        background-repeat: no-repeat; }
+      .sec-lvl-3 .mid-sec-3 .flex-text .tt1 h6 {
+        font-family: RalewayBlack;
+        font-size: 24px;
+        margin-bottom: 15px;
+        color: #1e1f24;
+        text-transform: uppercase; }
+      .sec-lvl-3 .mid-sec-3 .flex-text .tt1 p {
+        font-family: RalewayRegular;
+        font-weight: bold; }
+      .sec-lvl-3 .mid-sec-3 .flex-text .tt1.ar-1:before {
+        top: 0;
+        left: 330px;
+        background-image: url(../img/arr-5-left.png);
+        width: 65px;
+        height: 31px; }
+      .sec-lvl-3 .mid-sec-3 .flex-text .tt1.ar-2:before {
+        top: 37px;
+        left: -105px;
+        background-image: url(../img/arr-6-left.png);
+        width: 56px;
+        height: 39px; }
+      .sec-lvl-3 .mid-sec-3 .flex-text .tt1.ar-3:before {
+        top: 11px;
+        left: 353px;
+        background-image: url(../img/arr-7-left.png);
+        width: 65px;
+        height: 31px; }
+      .sec-lvl-3 .mid-sec-3 .flex-text .tt1.ar-4:before {
+        top: -17px;
+        left: -100px;
+        background-image: url(../img/arr-8-left.png);
+        width: 54px;
+        height: 42px; }
+  .sec-lvl-3 .mid-sec-3 img {
+    position: relative;
+    z-index: 10; }
+
 /*# sourceMappingURL=style.css.map */
