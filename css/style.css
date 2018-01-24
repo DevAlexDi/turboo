@@ -383,6 +383,16 @@ section {
   justify-content: center;
   align-items: flex-end;
   padding-top: 100px; }
+  #form_section .flex_form_block:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: calc(100%);
+    top: -470px;
+    width: 400px;
+    height: 1074px;
+    background-repeat: no-repeat;
+    background-image: url(../img/form_right_img.png); }
 #form_section .form {
   background: white;
   width: 330px;
