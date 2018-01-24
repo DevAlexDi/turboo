@@ -1,3 +1,22 @@
+@media (max-width: 1800px) {
+  .sec-lvl-1 .main-turbo .abs-turbo {
+    width: 325px; }
 
+  .sec-lvl-1 .main-turbo .abs-turbo {
+    padding-top: 85px; }
+
+  .sec-lvl-1 .main-turbo h3 {
+    line-height: 132px; } }
+@media (max-width: 1600px) {
+  .sec-lvl-1 .main-turbo .for-flex-tour .my-abs.abs-1 {
+    top: -5px; }
+
+  .sec-lvl-1 .main-turbo .for-flex-tour .my-abs.abs-2 {
+    top: 284px;
+    left: -257px; }
+
+  .sec-lvl-1 .main-turbo .for-flex-tour .my-abs.abs-3 {
+    top: 249px;
+    right: -270px; } }
 
 /*# sourceMappingURL=media.css.map */

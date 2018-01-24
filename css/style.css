@@ -1,8 +1,5 @@
 @charset "UTF-8";
 @font-face {
-  font-family: PfsquaresansproReg;
-  src: url(../fonts/pfsquaresanspro-regular.ttf); }
-@font-face {
   font-family: RalewayRegular;
   src: url(../fonts/RalewayRegular.eot);
   src: local("☺"), url("../fonts/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular.ttf") format("truetype");
@@ -111,7 +108,7 @@ section {
           background-repeat: no-repeat; }
         .sec-lvl-1 .for-flex .my-side.right-side .f {
           font-size: 14px;
-          font-family: PfsquaresansproReg;
+          font-family: RalewayRegular;
           color: #fff;
           padding-right: 22px;
           position: relative;
