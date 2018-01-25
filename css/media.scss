@@ -151,11 +151,23 @@
 
 
 
-
 @media (max-width: 991px) {
   #form_section .form {
     margin-left: 0;
     margin-right: 50px;
+  }
+
+  footer span {
+    text-align: right;
+  }
+  footer p {
+    margin-top: 30px;
+  }
+  footer .footer_tel_block {
+    text-align: right;
+  }
+  footer .footer_tel {
+    margin-top: 35px;
   }
 }
 @media (max-width: 767px) {
@@ -177,4 +189,21 @@
     }
   }
 
+  footer span {
+    text-align: center;
+    margin-top: 30px;
+  }
+  footer p {
+    margin-top: 25px;
+    text-align: center;
+  }
+  footer .footer_tel {
+    margin-top: 25px;
+  }
+  footer .gvd_block {
+    text-align: center;
+  }
+  footer .footer_tel_block {
+    text-align: center;
+  }
 }

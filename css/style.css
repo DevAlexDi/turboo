@@ -440,10 +440,45 @@ section {
 footer {
   background: white;
   margin: 0;
-  padding: 30px 0 20px; }
+  padding: 25px 0 30px; }
+  footer .gvd {
+    display: inline-block;
+    position: relative;
+    color: black;
+    font: bold 10px RalewayRegular;
+    text-transform: uppercase;
+    padding: 20px 0 0 65px; }
+    footer .gvd:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 51px;
+      height: 45px;
+      background: url(../img/gvd.png) no-repeat center; }
   footer span {
-    font: bold 14px RalewayRegular; }
+    font: bold 14px RalewayRegular;
+    display: block;
+    margin-top: 15px; }
   footer p {
-    font: bold 14px RalewayRegular; }
+    font: bold 14px RalewayRegular;
+    margin-top: 5px; }
+  footer .footer_tel {
+    display: inline-block;
+    color: black;
+    font: bold 18px Montserrat;
+    position: relative;
+    padding-left: 20px;
+    margin-top: 10px; }
+    footer .footer_tel:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 3px;
+      width: 12px;
+      height: 16px;
+      background: url(../img/footer_tel.png) no-repeat center; }
 
 /*# sourceMappingURL=style.css.map */
