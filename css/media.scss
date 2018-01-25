@@ -395,12 +395,50 @@
 
 
 
-
 @media (max-width: 991px) {
   #form_section .form {
     margin-left: 0;
     margin-right: 50px;
   }
+
+  footer span {
+    text-align: right;
+  }
+  footer p {
+    margin-top: 30px;
+  }
+  footer .footer_tel_block {
+    text-align: right;
+  }
+  footer .footer_tel {
+    margin-top: 35px;
+  }
+
+  .modal .modal-dialog {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none!important;
+    margin: 20px auto;
+    width: 290px!important;
+  }
+  .modal.in .modal-dialog {
+    transform: none!important;
+  }
+  #agreement-modal .for-scroll {
+    padding: 15px;
+  }
+  #agreement-modal .for-scroll h6 {
+    margin-bottom: 21px;
+    font-size: 13px;
+  }
+  #agreement-modal .for-scroll p {
+    text-align: justify;
+    font-size: 12px;
+  }
+    footer .gvd{
+        display: block;
+    }
 }
 @media (max-width: 767px) {
   #form_section .girl {
@@ -421,4 +459,24 @@
     }
   }
 
+  footer span {
+    text-align: center;
+    margin-top: 30px;
+  }
+  footer p {
+    margin-top: 25px;
+    text-align: center;
+  }
+  footer .footer_tel {
+    margin-top: 25px;
+  }
+  footer .gvd_block {
+    text-align: center;
+  }
+  footer .footer_tel_block {
+    text-align: center;
+  }
+    footer .gvd{
+        display: inline-block;
+    }
 }

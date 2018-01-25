@@ -91,9 +91,14 @@
     display: none; }
 
   .sec-lvl-1 .main-turbo .abs-turbo .for-flex-tour {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     .sec-lvl-1 .main-turbo .abs-turbo .for-flex-tour .my-abs {
       width: 50%;
       padding: 0 10px; }
@@ -149,8 +154,11 @@
     width: 100%; }
 
   .sec-lvl-2 .for-flex-sec-2 {
-    flex-wrap: wrap;
-    justify-content: center; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
 
   .sec-lvl-2 .for-flex-sec-2 .side {
     width: 314px;
@@ -178,7 +186,8 @@
     height: 450px;
     padding: 100px;
     top: 50%;
-    transform: translate(-50%, -50%); } }
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); } }
 @media (max-width: 767px) {
   .sec-lvl-1 .for-flex {
     display: block; }
@@ -190,8 +199,13 @@
     margin: 0 auto 20px auto; }
 
   .sec-lvl-1 .for-flex .my-side.right-side {
-    flex-direction: column;
-    align-items: flex-end; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
 
   .sec-lvl-1 .for-flex .my-side.right-side .f {
     padding-right: 0;
@@ -229,7 +243,46 @@
 @media (max-width: 991px) {
   #form_section .form {
     margin-left: 0;
-    margin-right: 50px; } }
+    margin-right: 50px; }
+
+  footer span {
+    text-align: right; }
+
+  footer p {
+    margin-top: 30px; }
+
+  footer .footer_tel_block {
+    text-align: right; }
+
+  footer .footer_tel {
+    margin-top: 35px; }
+
+  .modal .modal-dialog {
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-transform: none !important;
+            transform: none !important;
+    margin: 20px auto;
+    width: 290px !important; }
+
+  .modal.in .modal-dialog {
+    -webkit-transform: none !important;
+            transform: none !important; }
+
+  #agreement-modal .for-scroll {
+    padding: 15px; }
+
+  #agreement-modal .for-scroll h6 {
+    margin-bottom: 21px;
+    font-size: 13px; }
+
+  #agreement-modal .for-scroll p {
+    text-align: justify;
+    font-size: 12px; }
+
+  footer .gvd {
+    display: block; } }
 @media (max-width: 767px) {
   #form_section .girl {
     display: none; }
@@ -242,6 +295,26 @@
     margin-right: 0;
     padding-top: 30px; }
     #form_section .form button {
-      width: 100%; } }
+      width: 100%; }
+
+  footer span {
+    text-align: center;
+    margin-top: 30px; }
+
+  footer p {
+    margin-top: 25px;
+    text-align: center; }
+
+  footer .footer_tel {
+    margin-top: 25px; }
+
+  footer .gvd_block {
+    text-align: center; }
+
+  footer .footer_tel_block {
+    text-align: center; }
+
+  footer .gvd {
+    display: inline-block; } }
 
 /*# sourceMappingURL=media.css.map */
