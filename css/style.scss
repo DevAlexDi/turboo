@@ -624,6 +624,7 @@ footer {
         font: bold 14px RalewayRegular;
         display: block;
         margin-top: 15px;
+        cursor: pointer;
     }
 
     p {
@@ -650,4 +651,136 @@ footer {
             background: url(../img/footer_tel.png) no-repeat center;
         }
     }
+}
+
+.modal {
+    background: rgba(237, 237, 237, 0.75);
+    .modal-dialog {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)!important;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    &.in {
+        .modal-dialog {
+            opacity: 1;
+            transform: translate(-50%, -50%)!important;
+        }
+    }
+}
+#agreement-modal {
+    .modal-dialog {
+        width: 930px;
+    }
+    .buy_form_wrap {
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        transition: 0.3s;
+        position: relative;
+        padding: 40px 10px 10px 10px;
+    }
+    .closee {
+        font-size: 25px;
+        position: absolute;
+        right: 12px;
+        top: -3px;
+        transition: 0.3s;
+        cursor: pointer;
+        display: block;
+        &:hover {
+            color: #55bb16;
+        }
+    }
+    .for-scroll {
+        height: 500px;
+        padding: 25px;
+        overflow: auto;
+        h6 {
+            text-align: center;
+            font-family: RalewayBlack;
+            text-transform: uppercase;
+            margin-bottom: 45px;
+            font-size: 26px;
+        }
+        p {
+            font-size: 14px;
+            margin-bottom: 15px;
+            strong {
+                display: block;
+            }
+        }
+    }
+}
+
+#agreement-modal .for-scroll::-webkit-scrollbar {
+    background: #fff;
+    width: 8px;
+}
+
+#agreement-modal .for-scroll::-webkit-scrollbar-thumb {
+    background: #55bb16;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#thanks_modal {
+    .modal-dialog {
+        width: 930px;
+    }
+    .buy_form_wrap {
+        background-color: #fff;
+        -webkit-box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        transition: 0.3s;
+        position: relative;
+        padding: 40px 10px 10px 10px;
+    }
+    .closee {
+        font-size: 25px;
+        position: absolute;
+        right: 12px;
+        top: -3px;
+        transition: 0.3s;
+        cursor: pointer;
+        display: block;
+        &:hover {
+            color: #55bb16;
+        }
+    }
+    .for-scroll {
+        padding: 25px;
+        overflow: auto;
+        text-align: center;
+        h6 {
+            text-align: center;
+            font-family: RalewayBlack;
+            text-transform: uppercase;
+            margin-bottom: 45px;
+            font-size: 26px;
+        }
+        p {
+            font-size: 14px;
+            margin-bottom: 15px;
+            strong {
+                display: block;
+            }
+        }
+    }
+}
+
+#thanks_modal .for-scroll::-webkit-scrollbar {
+    background: #fff;
+    width: 8px;
+}
+
+#thanks_modal .for-scroll::-webkit-scrollbar-thumb {
+    background: #55bb16;
+    border-radius: 4px;
+    cursor: pointer;
 }

@@ -40,7 +40,29 @@
     text-align: right; }
 
   footer .footer_tel {
-    margin-top: 35px; } }
+    margin-top: 35px; }
+
+  .modal .modal-dialog {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none !important;
+    margin: 20px auto;
+    width: 290px !important; }
+
+  .modal.in .modal-dialog {
+    transform: none !important; }
+
+  #agreement-modal .for-scroll {
+    padding: 15px; }
+
+  #agreement-modal .for-scroll h6 {
+    margin-bottom: 21px;
+    font-size: 13px; }
+
+  #agreement-modal .for-scroll p {
+    text-align: justify;
+    font-size: 12px; } }
 @media (max-width: 767px) {
   #form_section .girl {
     display: none; }
