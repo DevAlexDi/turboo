@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: RalewayRegular;
     src: url(../fonts/RalewayRegular.eot);
@@ -122,7 +121,7 @@ section{
                     left: -525px;
                     width: 1520px;
                     height: 1028px;
-                    background-image: url(../img/hard-bg.png);
+                    background-image: url(../img/hard-bg.png?v=1.0);
                     background-repeat: no-repeat;
                 }
                 .f{
@@ -154,7 +153,7 @@ section{
         width: 50%;
         h1{
             font-size: 36px;
-            font-family: RalewayBold;
+            font-family: RalewayBlack;
             margin-bottom: 40px;
             span{
                 font-family: 'Montserratbold';
@@ -192,19 +191,19 @@ section{
                     background: #2fa92a;
                 }
                 &.f1{
-                    background-image: url(../img/i1.png);
+                    background-image: url(../img/i1.png?v=1.0);
                 }
                 &.f2{
-                    background-image: url(../img/i2.png);
+                    background-image: url(../img/i2.png?v=1.0);
                 }
                 &.f3{
-                    background-image: url(../img/i3.png);
+                    background-image: url(../img/i3.png?v=1.0);
                 }
                 &.f4{
-                    background-image: url(../img/i4.png);
+                    background-image: url(../img/i4.png?v=1.0);
                 }
                 &.f5{
-                    background-image: url(../img/i5.png);
+                    background-image: url(../img/i5.png?v=1.0);
                 }
             }
         }
@@ -289,7 +288,7 @@ section{
                             width: 53px;
                             height: 50px;
                             background-image: url(../img/arr-1-left.png);
-                            
+
                         }
                     }
                 }
@@ -306,7 +305,7 @@ section{
                             width: 61px;
                             height: 31px;
                             background-image: url(../img/arr-2-left.png);
-                            
+
                         }
                     }
                 }
@@ -323,7 +322,7 @@ section{
                             width: 65px;
                             height: 31px;
                             background-image: url(../img/arr-3-left.png);
-                            
+
                         }
                     }
                 }
@@ -389,7 +388,7 @@ section{
             width: 404px;
             height: 1093px;
             background-repeat: no-repeat;
-            background-image: url(../img/hard-bg-2.png);
+            background-image: url(../img/hard-bg-2.png?v=1.0);
             
         }
         .circle-2{
@@ -536,7 +535,7 @@ section{
             width: 400px;
             height: 1074px;
             background-repeat: no-repeat;
-            background-image: url(../img/form_right_img.png);
+            background-image: url(../img/form_right_img.png?v=1.0);
 
         }
     }

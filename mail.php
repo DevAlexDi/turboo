@@ -9,9 +9,9 @@ $letter .= '<p><strong>ФИО:</strong> '.$name.'</p>';
 $letter .= '<p><strong>Телефон:</strong> '.$phone.'</p>';
 $letter .= '</body></html>';
 
-$res['sent'] = false;
-if (mail('mail@remontturbin-24.ru', 'Заявка клиента | Ремонт турбин 24', $letter, 'Content-type: text/html; charset=utf-8')) $res['sent'] = true;
-return json_encode($res);
+mail('mail@remontturbin-24.ru', 'Заявка клиента | Ремонт турбин 24', $letter, 'Content-type: text/html; charset=utf-8');
+$res['sent'] = true;
+echo json_encode($res);
 
 
 ?>
