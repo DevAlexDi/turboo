@@ -64,6 +64,23 @@ $(document).ready(function () {
     
     
     
+     var win = $(window);
+    var scrFunc = function () {
+        var t = win.scrollTop(),
+            e = win.height();
+        $("[data-anim], .sec-lvl-2 .for-flex-sec-2, .sec-lvl-3 .mid-sec-3 .flex-text").each(function (n, i) {
+            var r = $(i).offset().top,
+                s = t + .9 * e;
+            s > r ? $(i).attr("data-anim", "true") : true;
+
+        })
+    }
+    scrFunc();
+    
+    $(window).scroll(function(){
+        scrFunc();
+    });
+    
     
 
 });
